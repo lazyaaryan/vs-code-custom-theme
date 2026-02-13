@@ -1,0 +1,21 @@
+{
+  "name": "pew-pew-theme",
+  "displayName": "pew-pew-theme",
+  "description": "desc-theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "pew-pew",
+        "uiTheme": "vs",
+        "path": "./themes/pew-pew-color-theme.json"
+      }
+    ]
+  }
+}
